@@ -8,7 +8,7 @@ import pickle
 
 # -------------------- LOAD MODEL & PREPROCESSORS --------------------
 
-model = tf.keras.models.load_model("model.h5")
+# model = tf.keras.models.load_model("model.h5")
 model = tf.keras.models.load_model("model.h5", compile=False)
 
 
